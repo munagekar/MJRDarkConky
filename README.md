@@ -100,7 +100,7 @@ Screenshot
 ----------
 
 This screenshot was taken on Manjaro 17.04 XFCE desktop so you might get slightly different results
-I have also installed plank and set background to bg for my dock.
+I have also installed plank and set background to transparent for my dock.
 The default XFCE Panel has been moved to the top
 And Numix Circular Icon Theme has been used to get circular icons.
 
