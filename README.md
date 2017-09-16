@@ -29,7 +29,7 @@ Wallpaper
 Use any dark wallpaper should be black. Texture & Gradients will look cool.
 Any dark minimalistic wallpaper should also do
 The Wallpaper is also attached
-I have used the following wallpaper.
+I have used the following wallpaper : https://pre00.deviantart.net/c84a/th/pre/f/2016/213/c/a/manjaro_monochrome_ws_wallpaper_by_rvc_2011-dac94gy.jpg
 ![Wallpaper](https://pre00.deviantart.net/c84a/th/pre/f/2016/213/c/a/manjaro_monochrome_ws_wallpaper_by_rvc_2011-dac94gy.jpg)
 
 Dependencies
