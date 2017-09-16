@@ -1,5 +1,6 @@
 Manjaro Dark Concky -Abhishek Munagekar
-===================
+=======================================
+
 ![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConcky.png)
 This is a dark conky manager theme which was tested with the following concky version.
 
@@ -7,7 +8,8 @@ This is a dark conky manager theme which was tested with the following concky ve
 
 This theme was tested on Manjaro 17.04 64 bit XFCE but should work fine with any other distro and desktop environment.
 
-#CMTHEME
+CMTHEME
+-------
 
 The cmtheme contents are as follows 
 
@@ -21,15 +23,17 @@ The cmtheme contents are as follows
     ~/.conky/AbhishekManjaro/wallpaper.jpg
     wallpaper-scaling:none
 
-#Wallpaper
+Wallpaper
+---------
 
 Use any dark wallpaper should be black. Texture & Gradients will look cool.
 Any dark minimalistic wallpaper should also do
 The Wallpaper is also attached
 I have used the following wallpaper.
-![Wallpaper](https://pre00.deviantart.net/c84a/th/pre/f/2016/213/c/a/manjaro_monochrome_ws_wallpaper_by_rvc_2011-dac94gy.jpg)
+![Wallpaper](https://rvc-2011.deviantart.com/art/Manjaro-Monochrome-WS-Wallpaper-625242850)
 
-#Dependencies
+Dependencies
+------------
 
 These have been attached in the zip file.
 
@@ -42,7 +46,9 @@ I have changed the content of the files in these Themes & Widgets - Such as colo
 You will have to overwrite these themes in case you already have these themes.
 You could also create a backup in case you decide to revert back.
 
-#Python Dependencies
+Python Dependencies
+-------------------
+
 Make sure you have the following packages installed for Python2
 
     urllib
@@ -51,14 +57,18 @@ Make sure you have the following packages installed for Python2
 
 You can get them using pip.
 
-#Python Issues
+Python Issues
+-------------
+
 Since Manjaro uses python3 by default and the theme has two python files which had to be called using python2 however is if you are using Ubuntu you will have to edit these files and use python instead of python 2.
 Make changes in the following files
 
     ~/.conky/TransparentTilesv3/weather_forecast
     ~/.conky/ConkyWhiteTilesv2/news
 
-#News & Weather Issues
+News & Weather Issues
+---------------------
+
 I have fixed yahoo weather api issues.
 News is retrieved from Times of India Headlines RSS feed
 Weather is retrieved from Yahoo Weather. With City: Katraj Country:India
@@ -69,7 +79,9 @@ You might want to change these settings in
     ~/.conky/ConkyWhiteTilesv2/news.py
 
 
-#Installation & Using the Theme
+Installation & Using the Theme
+------------------------------
+
 This theme has the following dependencies
 
 Conky package 
@@ -84,7 +96,9 @@ And select the theme using Conky Manager.
 
 
 
-#Screenshot 
+Screenshot
+----------
+
 This screenshot was taken on Manjaro 17.04 XFCE desktop so you might get slightly different results
 I have also installed plank and set background to bg for my dock.
 The default XFCE Panel has been moved to the top
