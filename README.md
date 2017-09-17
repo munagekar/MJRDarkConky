@@ -94,8 +94,7 @@ Future Development
 Version History
 
  - 1.0 : Came with Weather Forecast Widget , Modified Gotham Style Panel, Network Panel, Modified CPU Temperature Panel, News Widget.
- - 2.0 : Moved cache to AbhishekManjaro folder instead of /tmp. This corrects the weather bug, since weather data fetching requires   
-   internet. Now old weather data can be used till new data is fetched. 
+ - 2.0 : Moved cache to AbhishekManjaro folder instead of /tmp. This corrects the weather bug, since weather data fetching requires internet. Now old weather data can be used till new data is fetched. 
    Cool New Real Time Bitcoin Price Widget. Reduced the size of theme by
    removing unnecessary files.
 
