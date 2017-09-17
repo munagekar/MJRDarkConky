@@ -1,7 +1,7 @@
 Manjaro Dark Conky -Abhishek Munagekar
 =======================================
 
-![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConky.png)
+![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConky2.png)
 This is a dark conky manager theme which was tested with the following concky version.
 
     conky 1.10.6_pre compiled Tue May 16 08:25:34 UTC 2017 for Linux 4.10.9-1-ARCH x86_64
@@ -79,7 +79,7 @@ Screenshot
 
 This screenshot was taken on Manjaro 17.04 XFCE desktop so you might get slightly different results
 I have also installed plank and set background to transparent for my dock.
-The default XFCE Panel has been moved to the top
+The default XFCE Panel has been moved to the top & a small XFCE-Weather Widget is added to the top
 And Numix Circular Icon Theme has been used to get circular icons.
 
 Future Development
