@@ -1,7 +1,7 @@
 Manjaro Dark Conky -Abhishek Munagekar
 =======================================
 
-![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConcky.png)
+![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConky.png)
 This is a dark conky manager theme which was tested with the following concky version.
 
     conky 1.10.6_pre compiled Tue May 16 08:25:34 UTC 2017 for Linux 4.10.9-1-ARCH x86_64
