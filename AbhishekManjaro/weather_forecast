@@ -1,0 +1,60 @@
+# conky package by Abhishek Munagekar
+# Inspired by a conky package by qaisar nawaz
+# Conky settings #
+background no
+update_interval 600
+double_buffer yes
+no_buffers yes
+
+# Window specifications #
+own_window yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_title 
+own_window_colour 000000
+own_window_argb_visual no
+own_window_argb_value 0
+
+minimum_size 259 80
+maximum_width 259
+# Alignment #
+alignment top_right
+gap_x 23
+gap_y 200
+border_inner_margin 12
+border_outer_margin 0
+
+# Graphics settings #
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+# Text settings #
+use_xft yes
+xftalpha 0
+xftfont Open Sans Light:size=10
+
+override_utf8_locale yes
+
+imlib_cache_size 0
+
+# Color scheme #
+default_color EAEAEA
+
+color1 FFA300
+color2 9933CC
+color3 669900
+color4 FF8800
+color5 CC0000
+color6 AAAAAA
+color7 999999
+color8 666666
+
+own_window_transparent yes
+TEXT
+${execi 3000 python2 weather.py}${voffset -4}${color1}${font Ubuntu:size=14}Forecast$color$font
+${voffset 4}${goto 18}${execi 3000 sed '1q;d' conkyweather.txt}${goto 88}${execi 3000 sed '2q;d' conkyweather.txt}${goto 158}${execi 3000 sed '3q;d' conkyweather.txt}${goto 228}${execi 3000 sed '4q;d' conkyweather.txt}
+${execi 3000 cp -f ./conky_icons/$(sed '5q;d' conkyweather.txt).png ~/.cache/weather-1.png}${image ~/.cache/weather-1.png -p 0,50 -s 30x30}${execi 3000 cp -f ./conky_icons/$(sed '6q;d' conkyweather.txt).png ~/.cache/weather-2.png}${image ~/.cache/weather-2.png -p 70,50 -s 30x30}${execi 3000 cp -f ./conky_icons/$(sed '7q;d' conkyweather.txt).png ~/.cache/weather-3.png}${image ~/.cache/weather-3.png -p 140,50 -s 30x30}${execi 3000 cp -f ./conky_icons/$(sed '8q;d' conkyweather.txt).png ~/.cache/weather-4.png}${image ~/.cache/weather-4.png -p 210,50 -s 30x30}${voffset 16}
+${goto 20}${execi 3000 sed '9q;d' conkyweather.txt}°${goto 90}${execi 3000 sed '10q;d' conkyweather.txt}°${goto 160}${execi 3000 sed '11q;d' conkyweather.txt}°${goto 230}${execi 3000 sed '12q;d' conkyweather.txt}°
+${goto 20}${execi 3000 sed '13q;d' conkyweather.txt}°${goto 90}${execi 3000 sed '14q;d' conkyweather.txt}°${goto 160}${execi 3000 sed '15q;d' conkyweather.txt}°${goto 230}${execi 3000 sed '16q;d' conkyweather.txt}°${voffset -13}
