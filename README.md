@@ -6,22 +6,14 @@ This is a dark conky manager theme which was tested with the following concky ve
 
     conky 1.10.6_pre compiled Tue May 16 08:25:34 UTC 2017 for Linux 4.10.9-1-ARCH x86_64
 
-This theme was tested on Manjaro 17.04 64 bit XFCE but should work fine with any other distro and desktop environment.
+This theme was tested on Manjaro 17.0.5 64 bit XFCE but should work fine with any other distro and desktop environment.
 
 CMTHEME
 -------
 
-The cmtheme contents are as follows 
+Would be updated soon.
 
-    ~/.conky/ConkyWhiteTilesv2/news
-    ~/.conky/ConkyWhiteTilesv2/temp
-    ~/.conky/Green Apple Desktop/Gotham
-    ~/.conky/TeejeeTech/CPU Panel (4-core)
-    ~/.conky/TeejeeTech/Network Panel
-    ~/.conky/TeejeeTech/Process Panel
-    ~/.conky/TransparentTilesv3/weather_forecast
-    ~/.conky/AbhishekManjaro/wallpaper.jpg
-    wallpaper-scaling:none
+  
 
 Wallpaper
 ---------
