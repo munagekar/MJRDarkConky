@@ -1,4 +1,4 @@
-Manjaro Dark Concky -Abhishek Munagekar
+Manjaro Dark Conky -Abhishek Munagekar
 =======================================
 
 ![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConcky.png)
@@ -84,13 +84,16 @@ Installation & Using the Theme
 
 This theme has the following dependencies
 
-Conky package 
-Conky manager package
-Python
-Lua(Not sure but might be required)
+ - Conky Package
+ - Conky Manager
+ - Python
+ - Lua(Not sure possibly required by Conky)
+Use your package manager to get theme if they aren't installed on your machine.
 
-Extract the archive the ~/.conky folder and use conky manager to select this theme.
+Extract the archive inside ~/.conky folder and use conky manager to select this theme.
+
 Manage Weather Configuration by making changes in `~/.conky/TransparentTilesv3/weather.py`
+
 Manage News RSS stream by making changes in `~/.conky/ConkyWhiteTilesv2/news.py`
 And select the theme using Conky Manager.
 
@@ -104,6 +107,15 @@ I have also installed plank and set background to transparent for my dock.
 The default XFCE Panel has been moved to the top
 And Numix Circular Icon Theme has been used to get circular icons.
 
+Future Development
+----------
 
+ 1. Ubuntu Fork for The Theme to make it easy for beginners. This more efforts on my parts as I will have to replicate the work there. - Low Priority
+ 2. Bitcoin Price Widget - High Priority
+ 3. Forex Widget - High Priority
+ 4. Repackaging the dependencies the folder and striping down the dependency folders to just required things. Currently its bloated & creates conflicts. - Low Priority
 
+Version History
+----------
+ 1.0 : Came with Weather Forecast Widget , Modified Gotham Style Panel, Network Panel, Modified CPU Temperature Panel, News Widget. 
 
