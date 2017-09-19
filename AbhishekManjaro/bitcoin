@@ -1,6 +1,6 @@
 # Conky settings #
 background no
-update_interval 60
+update_interval 900
 double_buffer yes
 no_buffers yes
 
@@ -52,7 +52,7 @@ ${voffset -35}
 ${font Ubuntu:size=6}${color9}${alignc}Powered by Coindesk
 ${image bitcoin.png -p 15,0 -s 70x70}
 ${voffset 40}
-${execi 12 python2 bitcoin.py}
-${font Ubuntu:size=13}${color3}${alignc} ${execi 120 sed '2q;d' bitcoin.txt}
-${font Ubuntu:size=8}${color9}${alignc}${execi 120 sed '1q;d' bitcoin.txt}
+${execi 900 python2 bitcoin.py}
+${font Ubuntu:size=13}${color3}${alignc} ${execi 900 sed '2q;d' bitcoin.txt}
+${font Ubuntu:size=8}${color9}${alignc}${execi 900 sed '1q;d' bitcoin.txt}
 ${voffset -41}
