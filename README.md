@@ -92,6 +92,7 @@ Future Development
  5. Making the python scripts more easy to configure for non-programmers
  6. Providing an auto-update script
  7. Making a script to interactively configure the theme.
+ 8. Battery Optimizations
 
 
 Version History
@@ -100,4 +101,5 @@ Version History
  - 2.0 : Moved cache to AbhishekManjaro folder instead of /tmp. This corrects the weather bug, since weather data fetching requires internet. Now old weather data can be used till new data is fetched. 
    Cool New Real Time Bitcoin Price Widget. Reduced the size of theme by
    removing unnecessary files.
+ - 2.0.1 : Bitcoin Update Time Bug Fixed & Minor Change in CPU Temp Gadget. 
 
