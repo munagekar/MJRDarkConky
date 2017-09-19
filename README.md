@@ -93,7 +93,6 @@ Future Development
 ----------
 
  1. Ubuntu Fork for The Theme to make it easy for beginners. This more efforts on my parts as I will have to replicate the work there. - Low Priority
- 2. Forex Widget - High Priority
  3. Live Cricket Widget
  4. Live Stock Indice Widget
  5. Making the python scripts more easy to configure for non-programmers
