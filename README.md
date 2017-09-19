@@ -40,18 +40,22 @@ Make changes in the following files
 
     ~/.conky/TransparentTilesv3/weather_forecast
     ~/.conky/ConkyWhiteTilesv2/news
+    ~/.conky/ConkyWhiteTilesv2/forex
 
-News & Weather Issues
+News & Weather & ForexIssues
 ---------------------
 
 I have fixed yahoo weather api issues.
 News is retrieved from Times of India Headlines RSS feed
 Weather is retrieved from Yahoo Weather. With City: Katraj Country:India
+Forex converts USD to INR by default. This can easily be changed
 You might want to change these settings in
 
     ~/.conky/AbhishekManjaro/weather.py
 
     ~/.conky/AbhishekManjaro/news.py
+    
+    ~/.conky/AbhishekManjaro/forex.py
 
 
 Installation & Using the Theme
@@ -70,6 +74,9 @@ Clone the repository and copy the AbhishekManjaro folder into ~/.conky.
 Manage Weather Configuration by making changes in `weather.py`
 
 Manage News RSS stream by making changes in `news.py`
+
+Make Forex Widget changes by making changes in `forex.py`
+Note: I only provide Icon for indian rupee for forex widget. I would not be creating any additional icons. Anyone interested in creating icons should go ahead and fork this repository.
 Finally select the theme using Conky Manager.
 
 
@@ -102,4 +109,5 @@ Version History
    Cool New Real Time Bitcoin Price Widget. Reduced the size of theme by
    removing unnecessary files.
  - 2.0.1 : Bitcoin Update Time Bug Fixed & Minor Change in CPU Temp Gadget. 
+  - 2.1 : New Forex Widget Added. Now see you a currency factor on your screen.
 
