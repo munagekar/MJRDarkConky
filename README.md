@@ -89,6 +89,9 @@ Future Development
  2. Forex Widget - High Priority
  3. Live Cricket Widget
  4. Live Stock Indice Widget
+ 5. Making the python scripts more easy to configure for non-programmers
+ 6. Providing an auto-update script
+ 7. Making a script to interactively configure the theme.
 
 
 Version History
