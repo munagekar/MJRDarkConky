@@ -52,6 +52,6 @@ own_window_transparent yes
 TEXT
 ${voffset 0}${font Open Sans Light:size=40}$alignc${offset 8}${hwmon temp 1}°$font$color
 ${image temp.png -p 0,12 -s 35x35}
-${font Ubuntu:size=12}${color3}${alignc}TEMP
+${font Ubuntu:size=12}${color3}${alignc}CPU
 
 ${voffset -41}
