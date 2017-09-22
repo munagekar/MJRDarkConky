@@ -2,7 +2,7 @@
 # Inspired by a conky package by qaisar nawaz
 # Conky settings #
 background no
-update_interval 600
+update_interval 3000
 double_buffer yes
 no_buffers yes
 
