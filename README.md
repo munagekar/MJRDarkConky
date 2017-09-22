@@ -109,4 +109,4 @@ Version History
    removing unnecessary files.
  - 2.0.1 : Bitcoin Update Time Bug Fixed & Minor Change in CPU Temp Gadget. 
   - 2.1 : New Forex Widget Added. Now see you a currency factor on your screen.
-
+  - 2.2 : New Bear Icon Added. Coming soon a Stocks Widget. Minor Change in the Weather_Forecast
