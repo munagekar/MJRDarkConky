@@ -41,14 +41,16 @@ Make changes in the following files
     ~/.conky/TransparentTilesv3/weather_forecast
     ~/.conky/ConkyWhiteTilesv2/news
     ~/.conky/ConkyWhiteTilesv2/forex
+    ~/.conky/ConkyWhiteTilesv2/stocks
 
-News & Weather & ForexIssues
+New, Weather, Forex & Stock Indice Configurations
 ---------------------
 
 I have fixed yahoo weather api issues.
 News is retrieved from Times of India Headlines RSS feed
 Weather is retrieved from Yahoo Weather. With City: Katraj Country:India
 Forex converts USD to INR by default. This can easily be changed
+BSE Indice is retrieved using Web Scrapping. You can easily scrape any other indice value using the current widget as a template.
 You might want to change these settings in
 
     ~/.conky/AbhishekManjaro/weather.py
@@ -56,6 +58,8 @@ You might want to change these settings in
     ~/.conky/AbhishekManjaro/news.py
     
     ~/.conky/AbhishekManjaro/forex.py
+   
+   ~/.conky/AbhishekManjaro/stocks.py
 
 
 Installation & Using the Theme
@@ -76,6 +80,8 @@ Manage Weather Configuration by making changes in `weather.py`
 Manage News RSS stream by making changes in `news.py`
 
 Make Forex Widget changes by making changes in `forex.py`
+
+Make Stocks Widget changes by making changes in `stocks.py`
 Note: I only provide Icon for indian rupee for forex widget. I would not be creating any additional icons. Anyone interested in creating icons should go ahead and fork this repository.
 Finally select the theme using Conky Manager.
 
@@ -93,12 +99,9 @@ Future Development
 ----------
 
  1. Ubuntu Fork for The Theme to make it easy for beginners. This more efforts on my parts as I will have to replicate the work there. - Low Priority
- 3. Live Cricket Widget
- 4. Live Stock Indice Widget
- 5. Making the python scripts more easy to configure for non-programmers
- 6. Providing an auto-update script
- 7. Making a script to interactively configure the theme.
- 8. Battery Optimizations
+ 2. Making the python scripts more easy to configure for non-programmers
+ 3. Providing an auto-update script
+ 4. Making a script to interactively configure the theme.
 
 
 Version History
@@ -110,3 +113,4 @@ Version History
  - 2.0.1 : Bitcoin Update Time Bug Fixed & Minor Change in CPU Temp Gadget. 
   - 2.1 : New Forex Widget Added. Now see you a currency factor on your screen.
   - 2.2 : New Bear Icon Added. Coming soon a Stocks Widget. Minor Change in the Weather_Forecast
+  - 3.0 : Battery Optimizations. New Bull Icon Added. Stocks(BSE) Widget Added. New Dependency: Beautiful Soup Python Package for Web Scrapping
