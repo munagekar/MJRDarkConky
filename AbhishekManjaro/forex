@@ -1,6 +1,6 @@
 # Conky settings #
 background no
-update_interval 900
+update_interval 2700
 double_buffer yes
 no_buffers yes
 
@@ -51,6 +51,6 @@ TEXT
 ${voffset -35}
 ${image rupee.png -p 15,0 -s 70x70}
 ${voffset 40}
-${execi 900 python2 forex.py}
-${font Ubuntu:size=13}${color3}${alignc} ${execi 900 sed '1q;d' forex.txt}
+${execi 2700 python2 forex.py}
+${font Ubuntu:size=13}${color3}${alignc} ${execi 2700 sed '1q;d' forex.txt}
 ${voffset -41}

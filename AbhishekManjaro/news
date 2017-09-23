@@ -1,7 +1,7 @@
 #Conky Package by Abhishek Munagekar
 # Conky settings #
 background no
-update_interval 900
+update_interval 2700
 double_buffer yes
 no_buffers yes
 
@@ -54,5 +54,5 @@ color7 DDDDDD
 own_window_transparent yes
 TEXT
 ${voffset -4}${color1}${font Ubuntu:size=12}Top Stories$color$font
-${voffset 1}${exec python2 ./news.py}
+${voffset 1}${execi 2700 python2 ./news.py}
 ${voffset -28}
