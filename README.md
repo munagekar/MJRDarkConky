@@ -7,7 +7,7 @@ This is a dark conky manager theme which was tested with the following concky ve
     conky 1.10.6_pre compiled Tue May 16 08:25:34 UTC 2017 for Linux 4.10.9-1-ARCH x86_64
 
 This theme was tested on Manjaro 17.0.5 64 bit XFCE but should work fine with any other distro and desktop environment.
-It is fully modular and can be easily customized,comes with widgets for Time, Day of Week, Weather Forecast, News, And Real Time Bitcoin Value. I am also Planning to add a forex & live cricket & stock indice plugin. If you want a cool desktop definitely give this theme a try.
+It is fully modular and can be easily customized,comes with widgets for Time, Day of Week, Weather Forecast, News, And Real Time Bitcoin Value. I am also Planning to add a forex & live cricket & stock indice plugin. If you want a cool desktop definitely give this theme a try. This theme has been completely developed and expect no more future commits to this project unless something breaks
 
 Wallpaper
 ---------
@@ -28,6 +28,7 @@ Make sure you have the following packages installed for Python2
     feedparser
     dateutil
     datetime
+    bs4 (BeautifulSoup)
     
 
 You can get them using pip.
@@ -50,7 +51,7 @@ I have fixed yahoo weather api issues.
 News is retrieved from Times of India Headlines RSS feed
 Weather is retrieved from Yahoo Weather. With City: Katraj Country:India
 Forex converts USD to INR by default. This can easily be changed
-BSE Indice is retrieved using Web Scrapping. You can easily scrape any other indice value using the current widget as a template.
+BSE Indice is retrieved using Web Scrapping. You can easily scrape any other indice value using the current widget as a template. Programming knowledge is required for this modification.
 You might want to change these settings in
 
     ~/.conky/AbhishekManjaro/weather.py
@@ -90,7 +91,7 @@ Finally select the theme using Conky Manager.
 Screenshot
 ----------
 
-This screenshot was taken on Manjaro 17.04 XFCE desktop so you might get slightly different results
+This screenshot was taken on Manjaro 17.0.5 XFCE desktop so you might get slightly different results
 I have also installed plank and set background to transparent for my dock.
 The default XFCE Panel has been moved to the top & a small XFCE-Weather Widget is added to the top
 And Numix Circular Icon Theme has been used to get circular icons.
@@ -99,10 +100,6 @@ Future Development
 ----------
 
  1. Ubuntu Fork for The Theme to make it easy for beginners. This more efforts on my parts as I will have to replicate the work there. - Low Priority
- 2. Making the python scripts more easy to configure for non-programmers
- 3. Providing an auto-update script
- 4. Making a script to interactively configure the theme.
-
 
 Version History
 
