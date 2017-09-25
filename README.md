@@ -6,7 +6,7 @@ This is a dark conky manager theme which was tested with the following concky ve
 
     conky 1.10.6_pre compiled Tue May 16 08:25:34 UTC 2017 for Linux 4.10.9-1-ARCH x86_64
 
-This theme was tested on Manjaro 17.0.5 64 bit XFCE but should work fine with any other distro and desktop environment.
+This theme was tested on Ubuntu 14.04 LTS & Manjaro 17.0.5 64 bit XFCE but should work fine with any other distro and desktop environment.
 It is fully modular and can be easily customized,comes with widgets for Time, Day of Week, Weather Forecast, News, And Real Time Bitcoin Value. I am also Planning to add a forex & live cricket & stock indice plugin. If you want a cool desktop definitely give this theme a try. This theme has been completely developed and expect no more future commits to this project unless something breaks
 
 Wallpaper
@@ -17,6 +17,10 @@ Any dark minimalistic wallpaper should also do
 The Wallpaper shown in the screenshot is also attached however you can change it anything you prefer.
 I have used the following wallpaper : https://pre00.deviantart.net/c84a/th/pre/f/2016/213/c/a/manjaro_monochrome_ws_wallpaper_by_rvc_2011-dac94gy.jpg
 ![Wallpaper](https://pre00.deviantart.net/c84a/th/pre/f/2016/213/c/a/manjaro_monochrome_ws_wallpaper_by_rvc_2011-dac94gy.jpg)
+
+CPU Temperature Issues
+-------------------
+A minor correction is required in ~/.conky/AbhishekManjaro/temp. As a result a new ubuntu-temp file was created. Just replace the word temp with ubuntu-temp in the cmtheme file : ~/.conky/AbhishekManjaro/AbhishekManjaro.cmtheme and you should be good to go
 
 Python Dependencies
 -------------------
@@ -99,8 +103,7 @@ And Numix Circular Icon Theme has been used to get circular icons.
 Future Development
 ----------
 
- 1. Ubuntu Fork for The Theme to make it easy for beginners. This more efforts on my parts as I will have to replicate the work there. - Low Priority
- 2. Addition of 2 and 8 core CPU Widget along with nvidia GPU widget from TeeJee Tech Theme
+ 1. Addition of 2 and 8 core CPU Widget along with nvidia GPU widget from TeeJee Tech Theme
 
 Version History
 
@@ -112,3 +115,5 @@ Version History
   - 2.1 : New Forex Widget Added. Now see you a currency factor on your screen.
   - 2.2 : New Bear Icon Added. Coming soon a Stocks Widget. Minor Change in the Weather_Forecast
   - 3.0 : Battery Optimizations. New Bull Icon Added. Stocks(BSE) Widget Added. New Dependency: Beautiful Soup Python Package for Web Scrapping
+  - 3.1 : Added support for Ubuntu after testing on a Ubuntu Machine. New Ubuntu Temperature Widget
+  
