@@ -36,8 +36,8 @@ You can get them using pip.
 Python Issues
 -------------
 
-Since Manjaro uses python3 by default and the theme has two python files which had to be called using python2 however is if you are using Ubuntu you will have to edit these files and use python instead of python 2.
-Make changes in the following files
+Since Manjaro uses python3 by default and the theme has two python files which had to be called using python2.This would work perfectly fine with distros like Ubuntu and Manjaro(I have personally tested it). If you are using any other distro fire the command python2 and see if you get a Python 2 interpretter. 
+Else make changes in the command python2 in the following files
 
     ~/.conky/TransparentTilesv3/weather_forecast
     ~/.conky/ConkyWhiteTilesv2/news
@@ -100,6 +100,7 @@ Future Development
 ----------
 
  1. Ubuntu Fork for The Theme to make it easy for beginners. This more efforts on my parts as I will have to replicate the work there. - Low Priority
+ 2. Addition of 2 and 8 core CPU Widget along with nvidia GPU widget from TeeJee Tech Theme
 
 Version History
 
