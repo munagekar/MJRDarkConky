@@ -76,7 +76,7 @@ This theme has the following dependencies
  - Conky Manager
  - Python
  - Lua(Not sure possibly required by Conky)
-Use your package manager to get theme if they aren't installed on your machine.
+
 
 Clone the repository and copy the AbhishekManjaro folder into ~/.conky.
 
