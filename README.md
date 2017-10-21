@@ -2,12 +2,12 @@ Manjaro Dark Conky -Abhishek Munagekar
 =======================================
 
 ![Screenshot](https://github.com/munagekar/MJRDarkConcky/blob/master/MJRDarkConky2.png)
-This is a dark conky manager theme which was tested with the following concky version.
+This is a dark conky manager theme which was tested with the following conky version.
 
     conky 1.10.6_pre compiled Tue May 16 08:25:34 UTC 2017 for Linux 4.10.9-1-ARCH x86_64
 
 This theme was tested on Ubuntu 14.04 LTS & Manjaro 17.0.5 64 bit XFCE but should work fine with any other distro and desktop environment.
-It is fully modular and can be easily customized,comes with widgets for Time, Day of Week, Weather Forecast, News, And Real Time Bitcoin Value. I am also Planning to add a forex & live cricket & stock indice plugin. If you want a cool desktop definitely give this theme a try. This theme has been completely developed and expect no more future commits to this project unless something breaks
+It is fully modular and can be easily customized,comes with widgets for Time, Day of Week, Weather Forecast, News, And Real Time Bitcoin Value. If you want a cool desktop definitely give this theme a try. This theme has been completely developed and expect no more future commits to this project unless something breaks
 
 Wallpaper
 ---------
